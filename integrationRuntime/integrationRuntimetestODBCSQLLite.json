@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimetestODBCSQLLite",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "integrationRuntimetestODBCSQLLite"
+	}
+}

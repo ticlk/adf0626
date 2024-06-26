@@ -1,0 +1,9 @@
+{
+	"name": "adf0410",
+	"location": "chinanorth3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7e37dfdc-82a7-4109-b82e-81aa90a1c8c2",
+		"tenantId": "b388b808-0ec9-4a09-a414-a7cbbd8b7e9b"
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"name": "AzureMySqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "oid",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "uid",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "created_at",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "dynamic_flag",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "notice_others_flag",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "notice_flag",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "animation_flag",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "animation",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "animation_close",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "status",
+				"type": "tinyint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "updated_at",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "notice_read_at",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "animation_read_at",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "notice_others_time",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "sended_day",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "notice_others_id",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "update_time",
+				"type": "datetime",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "linkmed_hrtool_sended20240511_1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

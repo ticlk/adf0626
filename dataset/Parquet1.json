@@ -1,0 +1,94 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "linkmed_hrtool_sended.parquet",
+				"fileSystem": "container0512"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "UTF8"
+			},
+			{
+				"name": "oid",
+				"type": "UTF8"
+			},
+			{
+				"name": "uid",
+				"type": "UTF8"
+			},
+			{
+				"name": "created_at",
+				"type": "UTF8"
+			},
+			{
+				"name": "dynamic_flag",
+				"type": "UTF8"
+			},
+			{
+				"name": "notice_others_flag",
+				"type": "UTF8"
+			},
+			{
+				"name": "notice_flag",
+				"type": "UTF8"
+			},
+			{
+				"name": "animation_flag",
+				"type": "UTF8"
+			},
+			{
+				"name": "animation",
+				"type": "UTF8"
+			},
+			{
+				"name": "animation_close",
+				"type": "UTF8"
+			},
+			{
+				"name": "status",
+				"type": "UTF8"
+			},
+			{
+				"name": "updated_at",
+				"type": "UTF8"
+			},
+			{
+				"name": "notice_read_at",
+				"type": "UTF8"
+			},
+			{
+				"name": "animation_read_at",
+				"type": "UTF8"
+			},
+			{
+				"name": "notice_others_time",
+				"type": "UTF8"
+			},
+			{
+				"name": "sended_day",
+				"type": "UTF8"
+			},
+			{
+				"name": "notice_others_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "update_time",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

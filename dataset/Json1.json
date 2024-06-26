@@ -1,0 +1,59 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data_17b56d17-544d-4953-9b5f-008cca676f16_438546f1-17f3-471d-b4a2-2d5b2246eeea.json",
+				"container": "backup"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"vid": {
+					"type": "string"
+				},
+				"fname": {
+					"type": "object",
+					"properties": {
+						"fistname": {
+							"type": "string"
+						},
+						"lastname": {
+							"type": "string"
+						}
+					}
+				},
+				"fnum": {
+					"type": "number"
+				},
+				"_rid": {
+					"type": "string"
+				},
+				"_self": {
+					"type": "string"
+				},
+				"_etag": {
+					"type": "string"
+				},
+				"_attachments": {
+					"type": "string"
+				},
+				"_ts": {
+					"type": "integer"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

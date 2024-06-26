@@ -1,0 +1,29 @@
+{
+	"name": "AzureDatabricksDeltaLakeDataset2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDatabricksDeltaLake1",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"uriString": "https://storagee2.dfs.core.chinacloudapi.cn/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupx&se=2024-06-28T16:56:37Z&st=2024-06-25T08:56:37Z&spr=https&sig=Fo7KEUSYVQWq%2FbkTCqFV2Rp2tOYjrADqeSJqL3lNQdA%3D"
+			}
+		},
+		"annotations": [],
+		"type": "AzureDatabricksDeltaLakeDataset",
+		"typeProperties": {
+			"database": "default",
+			"table": "table617"
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "integer"
+			},
+			{
+				"name": "fname",
+				"type": "string"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

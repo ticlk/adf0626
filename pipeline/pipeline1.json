@@ -1,0 +1,41 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "pipelineReturnValue",
+					"value": [
+						{
+							"key": "fullpath",
+							"value": {
+								"type": "Expression",
+								"content": "@concat(pipeline().parameters.parameter01, 'ui')"
+							}
+						}
+					],
+					"setSystemVariable": true
+				}
+			}
+		],
+		"parameters": {
+			"parameter01": {
+				"type": "string"
+			},
+			"fullpath": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-06-03T08:43:57Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

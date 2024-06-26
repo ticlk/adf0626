@@ -1,0 +1,25 @@
+{
+	"name": "storagetrigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "binbinstoragetest",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/test0419/blobs/test/",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/78df7407-a3a1-4a7c-9494-bb3055562dfe/resourceGroups/ceshi/providers/Microsoft.Storage/storageAccounts/synapse1",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

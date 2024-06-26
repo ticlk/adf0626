@@ -1,0 +1,29 @@
+{
+	"name": "binbinstoragetest",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "csvtest",
+					"value": "123"
+				}
+			}
+		],
+		"variables": {
+			"csvtest": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-04-23T06:03:57Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
