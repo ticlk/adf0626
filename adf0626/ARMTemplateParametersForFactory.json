@@ -1,0 +1,96 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf0626"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
+		"AzureMySql1_connectionString": {
+			"value": ""
+		},
+		"AzurePostgreSql1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"CosmosDbNoSql1_connectionString": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"GetListFileCSV_accountKey": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"linkedService2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://hdinsight0421hdistorage.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://synapse1.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://storageliu.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureDataLakeStorage4_sasUri": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0531-015057-augsbz96"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sqlserver0529.database.chinacloudapi.cn"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "db"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "lihong"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "\\\\amle25006362729.file.core.chinacloudapi.cn\\code-391ff5ac-6576-460f-ba4d-7e03433c68b6"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "amle25006362729"
+		},
+		"GetListFileCSV_properties_typeProperties_url": {
+			"value": "https://storageliu.dfs.core.chinacloudapi.cn/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://ev0515.servicebus.chinacloudapi.cn/hub0515/messages?timeout=60&api-version=2014-01"
+		},
+		"linkedService2_properties_typeProperties_url": {
+			"value": "https://hdinsight0421hdistorage.dfs.core.chinacloudapi.cn/"
+		},
+		"storagetrigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/78df7407-a3a1-4a7c-9494-bb3055562dfe/resourceGroups/ceshi/providers/Microsoft.Storage/storageAccounts/synapse1"
+		}
+	}
+}
